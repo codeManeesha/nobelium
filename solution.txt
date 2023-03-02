@@ -1,0 +1,5 @@
+If you want to apply your top stashed changes to current non-staged change and delete that stash as well, then you should go for git stash pop.
+
+# apply the top stashed changes and delete it from git stash area.
+git stash pop  
+But if you are want to apply your top stashed changes to current non-staged change without deleting it, then you should go for git stash apply.
