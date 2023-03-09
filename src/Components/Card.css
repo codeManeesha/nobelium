@@ -1,0 +1,25 @@
+
+
+.container{
+    width: 280px;
+    background: linear-gradient(to left bottom,pink,rgb(228, 159, 159));
+    border-radius: 20px;
+    box-shadow: 10px 1px 10px 1px black;
+  
+    
+
+}
+.image-container img{
+    background: white;
+    width: 100px;
+    height :100px;
+    border-radius: 50%;
+}
+body{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+
+
+
