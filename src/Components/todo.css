@@ -1,0 +1,44 @@
+body{
+    background-color: aqua;
+}
+.main{
+background-color: aquamarine;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+#complete{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    background-color:skyblue;
+    border-radius: 10px;
+    border-style: none;
+}
+#delete{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    background-color:skyblue;
+    border-radius: 10px;
+    border-style: none;
+}
+#submit{
+    color:blueviolet;
+    text-decoration: none;
+    text-align: center;
+    background-color:skyblue;
+    border-radius: 10px;
+    border-style: none;
+}
+.field{
+    background-color: black;
+    text-decoration: none;
+    color:antiquewhite;
+    border-radius: 10px;
+    border-style: none;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    
+}
