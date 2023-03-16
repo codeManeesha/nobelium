@@ -1,0 +1,46 @@
+.Email{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.Pass{
+    display: flex;
+    justify-content: center;
+}
+.h2{
+ display: flex;
+ justify-content: center;
+}
+#i1{
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+}
+#i2{
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+}
+.p{
+display: flex;
+justify-content: center;
+}
+.Login{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    background-color: blue;
+    margin-top: 10px;
+    color: white;
+    
+
+}
+.SignUp{
+    display: flex;
+    justify-content:center;
+    margin:auto;
+    background-color: blue;
+    margin-top: 10px;
+    color: white;
+}
