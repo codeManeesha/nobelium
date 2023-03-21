@@ -1,15 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Main from './Components/Web'
-import React from 'react';
+import Main from './Components/Main'
+function App(){
 
-function App() {
   return (
-    
-  <Main/>
- 
-  
+ <Main/>
   );
 }
 
 export default App;
+
