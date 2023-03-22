@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import Main from './Components/Main'
+import Board from './Components/Board'
+import Scroll from './Components/Scroll';
 function App(){
 
   return (
- <Main/>
+    <>
+ <Board/>
+ <Scroll/>
+ </>
   );
 }
 

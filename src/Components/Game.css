@@ -1,0 +1,39 @@
+.board-row{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:1px solid rgb(190, 156, 190);
+}
+.square{
+    border: 1px solid rgb(190, 156, 190);
+    height:100px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.board-container{
+    margin: 20px;
+    margin-left:35%;
+    height:50%;
+    width: 28%;
+    border:1px solid rgb(209, 179, 209);
+    background-color: rgb(218, 230, 230);
+    
+}
+.button{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    background-color: rgb(163, 116, 132);
+    border-style: none;
+    border-radius: 5px;
+    color:rgb(12, 4, 20);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
