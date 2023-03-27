@@ -1,0 +1,18 @@
+.Home{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: azure;
+
+}
+.image{
+    min-height: 600px;
+    
+}
+.welcome{
+    margin-top: -70rem;
+    color:rgb(141, 238, 103);
+    
+    
+    
+}
+
