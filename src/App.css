@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.Option-Btn{
+  box-shadow: 0px 0px 4px 1px ;
+  padding: 10px;
+  border-radius: 3px;
+  border:none;
+  background-color: bisque;
+  transition: 0.3s;
+  margin: 5px;
+  min-height: 30px;
+  
+  
+  }
+  .checked{
+    background-color: rgb(16, 80, 100);
+    color:antiquewhite;
+
+  }
+  .Option-Btn:hover{
+    background-color: blue;
+    color: beige;
+  }
+  #Next{
+    padding: 10px;
+    border: none;
+    background-color: purple;
+    color: beige;
+    border-radius: 5px;
+    box-shadow: 0;
+    font-size: larger;
+    bottom: 15px;
+}
