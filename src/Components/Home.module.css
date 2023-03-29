@@ -1,0 +1,20 @@
+.Home{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: azure;
+
+}
+.image{
+display:block;
+max-width: 100%;
+min-height: 100%;
+    
+}
+.welcome{
+    margin-top: -70rem;
+    color:rgb(141, 238, 103);
+    
+    
+    
+}
+
