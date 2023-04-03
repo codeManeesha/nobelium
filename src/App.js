@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {RecoilRoot} from 'recoil'
+import AddTask from './Components/Task'
+import HomePage from './Components/Home';
+import{Routes,Route} from 'react-router-dom'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <>
+ <div className='App'>
+ <RecoilRoot>
+  <Routes>
+    <Route path='/' Component={HomePage}></Route>
+    <Route path='/task' Component={AddTask}></Route>
+  </Routes>
+ </RecoilRoot>
+
+ </div>
+ </>
   );
 }
 
