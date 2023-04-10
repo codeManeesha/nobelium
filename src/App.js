@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import {useState} from 'react'
 
 function App() {
+  const greetings =["Good morning","Good Evening","Good Afternoon","Happy Birthday","happy aniverssary"]
+  const [data,setData]=useState(0)
+  const handledata =()=>{
+    setData(data+1)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     
+    <button onClick={handledata}>greetings</button>
+    <h1>{greetings[data]}</h1>
     </div>
   );
 }
