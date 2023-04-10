@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+table ,th ,td {
+ 
+  border:1px solid red;
+}
+button{
+  border:1px solid greenyellow;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  font-size: medium;
+}
