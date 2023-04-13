@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+body{
+background-color: bisque;
+}
+.post{
+  display:flex;
+  justify-content: space-around;
+}
+h1{
+  color: rgb(41, 30, 80);
+
+}
+h3,p{
+  background-color: #b4fd84;
+}
+.post-list{
+  border:1px solid rgb(25, 26, 25);
+  background-color: #b4fd84;
+}
+.post-details{
+  border:1px solid black;
+  background-color: aquamarine;
+}
