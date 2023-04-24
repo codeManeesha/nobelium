@@ -1,5 +1,13 @@
+body{
+background-color: aqua;
+}
+
 .App {
   text-align: center;
+  background-color: bisque;
+  width:80%;
+  margin-left:8rem;
+  height:50vh;
 }
 
 .App-logo {
@@ -35,4 +43,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+.List{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+input{
+  background-color: #282c34;
+  color:white;
+}
+button{
+  background-color: rgb(6, 105, 59);
+  border-style: none;
+  border-radius: 1rem;
+  color: white;
 }
