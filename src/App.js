@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import Select from 'react-select'
+import {useState} from 'react'
 import './App.css';
 
 function App() {
+  const[value,Setvalue]=useState(null)
+  const option=[
+    {value:'apple',label:'apple'},
+    {value:'banana',label:'banana'},
+    {value:'litchi',label:'litchi'},
+    {value:'mango',label:'mango'},
+    {value:'papaya',label:'papaya'}
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+    <div style={{margin:20,width:200}}>
+   <Select options={option} defaultValue={value} placeholder="select option" onChange={Setvalue} isSearchable/>
     </div>
+ 
   );
 }
 
