@@ -1,0 +1,76 @@
+.calendar {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .month {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .prev-month,
+  .next-month {
+    cursor: pointer;
+  }
+  
+  .weekdays {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    background-color: #f2f2f2;
+    padding: 5px;
+  }
+  
+  .weekdays div {
+    text-align: center;
+    width: calc(100% / 7);
+    font-weight: bold;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+  }
+  
+  .prev-month,
+  .next-month {
+    font-size: 20px;
+    color: #999;
+  }
+  
+  .curr-month:hover {
+    cursor: pointer;
+    background-color: #f2f2f2;
+  }
+  
+  .selected {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .prev-month {
+    justify-self: flex-start;
+  }
+  
+  .next-month {
+    justify-self: flex-end;
+  }
+  
